@@ -23,3 +23,6 @@ email:string
 -email must be unique(since we'll use this for logins later)
 -email must be valid
 
+
+
+

@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   #patch '/recipes/:id',to:'recipes#update'
   #get '/recipes/:id',to:'recipes#show',as:'recipe'
   #delete '/recipes/:id',to:'recipes#destory'
-  resources:recipes
+  resources :recipes
   
 end
 
