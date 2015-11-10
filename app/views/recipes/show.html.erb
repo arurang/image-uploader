@@ -16,7 +16,7 @@
     
    
    <div calss="show_recipe">
-     <%=image_tag(@recipe.picture.url,class:"gravatar") if @recipe.picture? %>
+     <%=image_tag(@recipe.picture.url, class:"gravatar") if @recipe.picture? %>
      
      
    </div>
@@ -27,11 +27,11 @@
       </p>
       <%= simple_format(@recipe.description) %>
       <div class="pull-right">
-<%= link_to like_recipe_path(@recipe), method :post do %>
+<%= link_to like_recipe_path(@recipe), method: :Post do %>
 <i class="glyphicon glyphicon-thumbs-up"></i>
 <%end%>
 &nbsp&nbsp&nbsp&nbsp
-<%= link_to like_recipe_path(@recipe), method :post do %>
+<%= link_to like_recipe_path(@recipe), method: :Post do %>
 <i class="glyphicon glyphicon-thumbs-down"></i>
 <%end%>
       </div>

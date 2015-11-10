@@ -1,5 +1,6 @@
 class RecipesController < ApplicationController
   
+  #TESTNG 
 
   def index
     @recipes = Recipe.all
